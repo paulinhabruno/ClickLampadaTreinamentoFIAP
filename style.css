@@ -1,0 +1,24 @@
+*{ /* o * signigica que está pegando tudo*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    height: 100vh;
+    width: 100vw;
+    display: flex; /* coloca um ao lado do outro*/
+    flex-direction: column; /* colocou tudo um abaixo do outro*/
+    justify-content: center; /* alinha no eixo principal*/
+    align-items: center; /* alinha no eixo secundário*/
+}
+
+button{
+    width: 100px;
+    height: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    color: red;
+    font-style: italic;
+    border-radius: 50%;
+
+}
